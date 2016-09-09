@@ -23,6 +23,19 @@ Provides extensions for ASP.NET and Unity
 - Microsoft.AspNet.Mvc 5.2.3
 - Microsoft.AspNet.WebApi.Core 5.2.3
 
+# Releases
+
+## Stable on NuGet
+We publish stable releass to NuGet.
+
+    Install-Package Alegri.AspNet.UnityExtensions
+
+## Pre on MyGet
+
+Use our [Alegri Development feed](https://www.myget.org/gallery/alegri) `https://www.myget.org/F/alegri/api/v3/index.json` on [MyGet](https://www.myget.org/gallery/alegri) for unstable releases.
+
+    Install-Package Alegri.AspNet.UnityExtensions -Pre
+
 # License
 
     MIT License
@@ -53,4 +66,4 @@ Provides extensions for ASP.NET and Unity
 |---|---|---|
 | GitHub | Open Source Projects, demos and code samples | https://github.com/AlegriGroup |
 | Public NuGet | Stable Packages | https://www.nuget.org/profiles/ALEGRI |
-| Public MyGet | Unstable Packages | https://www.myget.org/feed/Packages/alegri |
+| Public MyGet | Unstable Packages | https://www.myget.org/gallery/alegri |
